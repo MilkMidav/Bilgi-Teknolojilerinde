@@ -1,5 +1,24 @@
 {
   "devDependencies": {
     "tailwindcss": "^3.2.4"
-  }
+  },
+  "name": "bilgi_teknolojilerinde",
+  "description": "",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MilkMidav/Bilgi-Teknolojilerinde.git"
+  },
+  "author": "Milk Modav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MilkMidav/Bilgi-Teknolojilerinde/issues"
+  },
+  "homepage": "https://github.com/MilkMidav/Bilgi-Teknolojilerinde#readme"
 }

@@ -9,20 +9,27 @@
   <title>Document</title>
 </head>
 
-<body>
-  <footer>
-    <img src="" alt="">
-    <div class="hidden">
-      <p>Çözüm ve Hizmetler</p>
-      <p>Ürünler</p>
-      <p>Teknolojiler</p>
-      <p>İnsan Kaynakları</p>
-      <p>Kurumsal</p>
+<body class="font-body">
+  <header class="fixed w-full px-5 pt-9">
+    <div class="flex justify-between items-center">
+      <div class="bg-slate-100 rounded-lg p-1">
+        <img src="../img/icon/List.png" alt="">
+      </div>
+      <nav class="hidden">
+        <ul class="bg-white fixed h-screen top-0 left-0  py-3 px-3">
+          <li class="lg:hidden mt-3 text-5xl">&times;</li>
+          <li class="mt-3 text-sm font-bold leading-5">Çözüm ve Hizmetler</li>
+          <li class="mt-3 text-sm font-bold leading-5">Ürünler</li>
+          <li class="mt-3 text-sm font-bold leading-5">Teknolojiler</li>
+          <li class="mt-3 text-sm font-bold leading-5">İnsan Kaynakları</li>
+          <li class="mt-3 text-sm font-bold leading-5">Kurumsal</li>
+        </ul>
+      </nav>
+      <button class="font-bold bg-red-600 rounded-md px-5 py-3 text-white text-sm">İletişim</button>
     </div>
-    <button>İletişim</button>
-  </footer>
-  <main>
-    <div>
+  </header>
+  <main class="px-5">
+    <div class="pt-36">
       <h1>Bilgi Teknolojilerinde
         23 Yıllık Tecrübe</h1>
       <p>Müşterilerimizin yüksek kalite seviyelerini koruyabilmeleri için farklı sektörlerde tecrübe kazanmış uzman
@@ -196,14 +203,14 @@
         <p>İş Ortakları</p>
       </div>
       <div>
-        <p>İletişim</p>
-        <p>Bilgi İstek Formu</p>
+        <p class="hidden">İletişim</p>
+        <p class="lol">Bilgi İstek Formu</p>
         <p>Uzman Talep Formu</p>
       </div>
     </div>
     <div>
       <div>
-        <img src="" alt="">
+        <img class="hidden" src="" alt="">
         <img src="" alt="">
         <img src="" alt="">
         <img src="" alt="">
