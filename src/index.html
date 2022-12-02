@@ -11,32 +11,42 @@
 
 <body class="font-body">
   <header class="fixed w-full px-5 pt-9">
-    <div class="flex justify-between items-center">
-      <div class="bg-slate-100 rounded-lg p-1">
-        <img src="../img/icon/List.png" alt="">
+    <div class="">
+      <div class="flex justify-between items-center">
+        <div class="bg-slate-100 rounded-lg p-1">
+          <img src="img/icon/list.png" alt="">
+        </div>
+        <nav class="hidden lg:flex">
+          <ul class="bg-white fixed h-screen top-0 left-0  py-3 px-3">
+            <li class="lg:hidden mt-3 text-5xl">&times;</li>
+            <li class="mt-3 text-sm font-bold leading-5">Çözüm ve Hizmetler</li>
+            <li class="mt-3 text-sm font-bold leading-5">Ürünler</li>
+            <li class="mt-3 text-sm font-bold leading-5">Teknolojiler</li>
+            <li class="mt-3 text-sm font-bold leading-5">İnsan Kaynakları</li>
+            <li class="mt-3 text-sm font-bold leading-5">Kurumsal</li>
+          </ul>
+        </nav>
+        <button class="font-bold bg-red-600 rounded-md px-5 py-3 text-white text-sm">İletişim</button>
       </div>
-      <nav class="hidden">
-        <ul class="bg-white fixed h-screen top-0 left-0  py-3 px-3">
-          <li class="lg:hidden mt-3 text-5xl">&times;</li>
-          <li class="mt-3 text-sm font-bold leading-5">Çözüm ve Hizmetler</li>
-          <li class="mt-3 text-sm font-bold leading-5">Ürünler</li>
-          <li class="mt-3 text-sm font-bold leading-5">Teknolojiler</li>
-          <li class="mt-3 text-sm font-bold leading-5">İnsan Kaynakları</li>
-          <li class="mt-3 text-sm font-bold leading-5">Kurumsal</li>
-        </ul>
-      </nav>
-      <button class="font-bold bg-red-600 rounded-md px-5 py-3 text-white text-sm">İletişim</button>
     </div>
   </header>
-  <main class="px-5">
-    <div class="pt-36">
-      <h1>Bilgi Teknolojilerinde
+  <main class="">
+    <div class="px-5 bg-cover pt-36 bg-[url('../src/img/bg_img.png')]">
+      <h1 class="font-extrabold text-[40px] text-center">Bilgi Teknolojilerinde
         23 Yıllık Tecrübe</h1>
-      <p>Müşterilerimizin yüksek kalite seviyelerini koruyabilmeleri için farklı sektörlerde tecrübe kazanmış uzman
+      <p class="text-center text-xs leading-[23px] pt-[30px] pb-11">Müşterilerimizin yüksek kalite seviyelerini
+        koruyabilmeleri
+        için
+        farklı sektörlerde
+        tecrübe
+        kazanmış uzman
         kadrolarımızla Proje Yönetimi, İş Analizi ve Test Yönetimi hizmetleri sunmaktayız.</p>
-      <div>
-        <input type="email" name="" id="">
-        <button>Kayıt Ol</button>
+      <div class="relative pb-[84px]">
+        <input placeholder="Mail bültenimize kayıt ol" class="py-5 pl-4 rounded-lg text-sm w-full placeholder:text-sm
+          placeholder:" type="email" name="" id="">
+        <button
+          class="right-[5px] top-[4px] absolute px-[18px] py-[16px] bg-red-500 text-white text-sm font-bold rounded-lg">Kayıt
+          Ol</button>
       </div>
     </div>
     <div>
