@@ -6,6 +6,8 @@ module.exports = {
       fontFamily: {
         body:['Manrope']
       }
+
+      
     },
   },
   plugins: [],
