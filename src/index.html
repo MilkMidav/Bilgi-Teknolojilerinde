@@ -13,12 +13,12 @@
   <header class="fixed w-full px-5 pt-9">
     <div class="">
       <div class="flex justify-between items-center">
-        <div class="bg-slate-100 rounded-lg p-1">
+        <div class="bg-slate-100 rounded-lg p-1 lg:hidden">
           <img src="img/icon/list.png" alt="">
         </div>
         <nav class="hidden lg:flex">
-          <ul class="bg-white fixed h-screen top-0 left-0  py-3 px-3">
-            <li class="lg:hidden mt-3 text-5xl">&times;</li>
+          <ul class="flex">
+            <li class="md:hidden mt-3 text-5xl">&times;</li>
             <li class="mt-3 text-sm font-bold leading-5">Çözüm ve Hizmetler</li>
             <li class="mt-3 text-sm font-bold leading-5">Ürünler</li>
             <li class="mt-3 text-sm font-bold leading-5">Teknolojiler</li>
@@ -31,25 +31,29 @@
     </div>
   </header>
   <main class="">
-    <div class="px-5 bg-cover pt-36 bg-[url('../src/img/bg_img.png')]">
-      <h1 class="font-extrabold text-[40px] text-center">Bilgi Teknolojilerinde
-        23 Yıllık Tecrübe</h1>
-      <p class="text-center text-xs leading-[23px] pt-[30px] pb-11">Müşterilerimizin yüksek kalite seviyelerini
-        koruyabilmeleri
-        için
-        farklı sektörlerde
-        tecrübe
-        kazanmış uzman
-        kadrolarımızla Proje Yönetimi, İş Analizi ve Test Yönetimi hizmetleri sunmaktayız.</p>
-      <div class="relative pb-[84px]">
-        <input placeholder="Mail bültenimize kayıt ol" class="py-5 pl-4 rounded-lg text-sm w-full placeholder:text-sm
+    <div class="">
+      <div class="px-5 bg-cover pt-36 bg-[url('../src/img/bg_img.png')]">
+        <h1 class="font-extrabold text-[40px] text-center">Bilgi Teknolojilerinde
+          23 Yıllık Tecrübe</h1>
+        <p class="md:max-w-screen-sm text-center mx-auto text-xs leading-[23px] pt-[30px] pb-11">Müşterilerimizin yüksek
+          kalite
+          seviyelerini
+          koruyabilmeleri
+          için
+          farklı sektörlerde
+          tecrübe
+          kazanmış uzman
+          kadrolarımızla Proje Yönetimi, İş Analizi ve Test Yönetimi hizmetleri sunmaktayız.</p>
+        <div class="md:max-w-screen-sm mx-auto relative pb-[84px]">
+          <input placeholder="Mail bültenimize kayıt ol" class="py-5 pl-4 rounded-lg text-sm w-full placeholder:text-sm
           placeholder:" type="email" name="" id="">
-        <button
-          class="right-[5px] top-[4px] absolute px-[18px] py-[16px] bg-red-500 text-white text-sm font-bold rounded-lg">Kayıt
-          Ol</button>
+          <button
+            class="right-[5px] top-[4px] absolute px-[18px] py-[16px] bg-red-500 text-white text-sm font-bold rounded-lg">Kayıt
+            Ol</button>
+        </div>
       </div>
     </div>
-    <div class="px-5 pt-[60px] pb-[90px] text-center items-center">
+    <div class="px-5 pt-[60px] pb-[90px] text-center items-center md:max-w-md md:mx-auto">
       <div>
         <h2 class="text-2xl font-extrabold pb-[20px] leading-8">Kalite ve Süreç Yönetimi</h2>
         <p class="text-xs font-normal leading-[22px] pb-[50px]">Müşterilerimizin yüksek kalite seviyelerini
@@ -143,12 +147,12 @@
         <p class="text-lg font-bold leading-6 ">Tasarruf Sağlıyoruz</p>
       </div>
     </div>
-    <div class="px-5 pt-[90px] pb-20 text-center">
-      <div>
+    <div class="px-5 pt-[90px] pb-20 text-center md:max-w-lg md:mx-auto">
+      <div class="">
         <picture>
           <img src="img/main_img_sm.jpg" alt="">
         </picture>
-        <div>
+        <div class="">
           <p class="text-4xl font-bold pt-8 pb-5">Kalite ve Süreç Yönetimi</p>
           <p class="text-sm text-[#808080] font-normal leading-7 pb-10">Deneyimli kadromuz; birçok farklı sektörden
             deneyimli,
@@ -182,7 +186,7 @@
       <p class="text-sm font-medium tracking-tight text-gray-900 leading-8 pb-10">Bize güvenen ve beraber çalıştığımız
         iş ortaklarımız
       </p>
-      <div class="grid gap-6 justify-center">
+      <div class="grid gap-6 justify-center md:grid-cols-custom md:gap-3 md:mx-auto">
         <div class="bg-white flex h-24 w-44 rounded-2xl items-center justify-center">
           <a class="w-9/12" href="#">
             <img src="img/corp/borusan_logo.png" alt="borusan_logo">
@@ -208,17 +212,23 @@
             <img src="img/corp/akcansa_logo.png" alt="akbank_logo">
           </a>
         </div>
-        <div class="hidden">
-          <img src="" alt="">
+        <div class="hidden bg-white h-24 w-44 rounded-2xl items-center justify-center md:flex ">
+          <a class="w-9/12" href="">
+            <img src="img/corp/aktlas_logo.png" alt="aktlas_logo">
+          </a>
         </div>
-        <div class="hidden">
-          <img src="" alt="">
+        <div class="hidden bg-white h-24 w-44 rounded-2xl items-center justify-center md:flex ">
+          <a class="w-9/12" href="">
+            <img src="img/corp/ola_logo.png" alt="ola_logo">
+          </a>
         </div>
-        <div class="hidden">
-          <img src="" alt="">
+        <div class="hidden bg-white h-24 w-44 rounded-2xl items-center justify-center md:flex ">
+          <a class="w-9/12" href="">
+            <img src="img/corp/amazon_logo.png" alt="amazon_logo">
+          </a>
         </div>
         <button
-          class="bg-white text-base text-red-500 font-semibold flex h-24 w-44 rounded-2xl items-center justify-center gap-2 hover:bg-red-400 hover:text-white">
+          class="bg-white text-base text-red-500 font-semibold flex h-24 w-44 rounded-2xl items-center justify-center gap-2 hover:bg-red-400 hover:text-white md:hidden">
           <span>Tümünü Gör</span> <img class="w-4" src="img/icon/arrow.png" alt="arrow">
         </button>
       </div>
@@ -237,7 +247,7 @@
     </div>
   </main>
   <footer class="bg-red-500 text-white py-20 px-5">
-    <div>
+    <div class="md:grid grid-cols-2">
       <div>
         <p class="text-base font-bold">Çözüm ve Hizmetler</p>
         <p class="pt-6 text-base leading-8">Yazılım Geliştirme</p>
@@ -246,7 +256,7 @@
         <p class="pt-6 text-base leading-8">Danışmanlık</p>
         <p class="pt-6 text-base leading-8">IoT Destekli Çözümler</p>
       </div>
-      <div class="pt-12">
+      <div class="pt-12 md:pt-0">
         <p class="text-base font-bold">Ürünler</p>
         <p class="pt-6 text-base leading-8">Eğitim Yönetim Sistemi</p>
         <p class="pt-6 text-base leading-8">İnsan Sermayesi Yönetim Sistemi</p>
@@ -265,15 +275,15 @@
         <p class="pt-6 text-base leading-8">Uzman Talep Formu</p>
       </div>
     </div>
-    <div>
+    <div class="md:flex md:items-center justify-between">
       <div class="flex items-center gap-4 pt-7">
         <img class="w-8" src="img/icon/socials/medium_logo.png" alt="medium_logo">
         <img class="w-8" src="img/icon/socials/linkedin_logo.png" alt="linkedin_logo">
-        <img class="w-8" src="img/icon/socials/twitter_logo.png" alt="">
-        <img class="w-8" src="img/icon/socials/instagram_logo.png" alt="">
-        <img class="w-8" src="img/icon/socials/facebook_logo.png" alt="">
+        <img class="w-8" src="img/icon/socials/twitter_logo.png" alt="twitter_logo">
+        <img class="w-8" src="img/icon/socials/instagram_logo.png" alt="instagram_logo">
+        <img class="w-8" src="img/icon/socials/facebook_logo.png" alt="facebook_logo">
       </div>
-      <p class="text-base font-normal pt-16">© Copyright 2010-2021 - Can Çevik</p>
+      <p class="text-base font-normal pt-16 md:pt-7">© Copyright 2010-2021 - Can Çevik</p>
     </div>
   </footer>
 </body>

@@ -5,9 +5,10 @@ module.exports = {
     extend: {
       fontFamily: {
         body:['Manrope']
-      }
-
-      
+      },
+      gridTemplateColumns: {
+        'custom': 'repeat(4, minmax(0, 176px))',
+      },
     },
   },
   plugins: [],
