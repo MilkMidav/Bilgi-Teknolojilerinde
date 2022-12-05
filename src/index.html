@@ -10,7 +10,7 @@
 </head>
 
 <body class="font-body">
-  <header class="fixed z-[1] w-full px-5 pt-9 2xl:pr-32">
+  <header class="absolute z-[1] w-full px-5 pt-9 2xl:pr-32">
     <div class="">
       <div class="flex items-center justify-between lg:justify-end lg:gap-10">
         <div class="rounded-lg bg-slate-100 p-1 lg:hidden">
@@ -30,9 +30,8 @@
     </div>
   </header>
   <main class="">
-    <div
-      class="bg-[url('../src/img/bg_img.png')] bg-cover sm:bg-[url('../src/img/bg_img_lg.png')] 2xl:bg-[url('../src/img/bg_img_xl.png')]">
-      <div class="bg-[url('../src/img/rectangle.png')] bg-cover px-5 pt-36 lg:bg-none lg:px-20 2xl:px-[11%] 2xl:pt-48">
+    <div class="bg-[url('img/bg_img.png')] bg-cover sm:bg-[url('img/bg_img_lg.png')] 2xl:bg-[url('img/bg_img_xl.png')]">
+      <div class="bg-[url('img/rectangle.png')] bg-cover px-5 pt-36 lg:bg-none lg:px-20 2xl:px-[11%] 2xl:pt-48">
         <h1
           class="text-center text-40 font-extrabold lg:max-w-650 lg:text-start lg:text-6xl 2xl:max-w-665 2xl:text-7xl">
           Bilgi Teknolojilerinde 23 Yıllık Tecrübe
@@ -45,10 +44,10 @@
         </p>
         <div class="relative mx-auto pb-20 md:max-w-screen-sm lg:mx-0 lg:max-w-424 2xl:max-w-504">
           <input placeholder="Mail bültenimize kayıt ol"
-            class="w-full rounded-lg py-5 pl-4 text-sm placeholder:text-sm lg:py-5 lg:pl-7 lg:text-base 2xl:pl-8"
+            class="w-full rounded-lg py-5 pl-4 pr-36 text-sm placeholder:text-sm lg:py-5 lg:pl-7 lg:text-base 2xl:pl-8"
             type="email" name="" id="" />
           <button
-            class="absolute right-[5px] top-1 rounded-lg bg-primary px-3.5 py-4 text-sm font-bold text-white hover:bg-red-900 lg:top-[5px] 2xl:px-9 2xl:py-2.8 2xl:text-base">
+            class="absolute right-1.2 top-1 rounded-lg bg-primary px-3.5 py-4 text-sm font-bold text-white hover:bg-red-900 lg:top-1.2 2xl:px-9 2xl:py-2.8 2xl:text-base">
             Kayıt Ol
           </button>
         </div>
@@ -81,7 +80,7 @@
         </div>
         <div class="pb-24 lg:pb-0">
           <div
-            class="relative mx-auto max-w-xs before:absolute before:right-[158px] before:top-2 before:h-11 before:w-11 before:rounded-full before:bg-violet">
+            class="relative mx-auto max-w-xs before:absolute before:right-40 before:top-1.2 before:h-11 before:w-11 before:rounded-full before:bg-violet">
             <img class="relative m-auto w-70" src="img/icon/star.png" alt="star_icon_img" />
           </div>
           <p class="pb-2.5 pt-5 text-2xl font-extrabold leading-8">
@@ -107,7 +106,7 @@
         </div>
         <div class="pb-24 lg:pb-0">
           <div
-            class="relative mx-auto max-w-xs before:absolute before:right-[154px] before:top-1 before:h-11 before:w-11 before:rounded-full before:bg-lite-blue">
+            class="relative mx-auto max-w-xs before:absolute before:right-40 before:top-1.2 before:h-11 before:w-11 before:rounded-full before:bg-lite-blue">
             <img class="relative m-auto w-70" src="img/icon/chart_bar.png" alt="chart_bar_icon_img" />
           </div>
           <p class="pb-2.5 pt-5 text-2xl font-extrabold leading-8">
@@ -120,7 +119,7 @@
         </div>
         <div class="pb-24 lg:pb-0">
           <div
-            class="relative mx-auto max-w-xs before:absolute before:right-[128px] before:bottom-[35px] before:h-11 before:w-11 before:rounded-full before:bg-warm-orange">
+            class="relative mx-auto max-w-xs before:absolute before:right-32 before:bottom-9 before:h-11 before:w-11 before:rounded-full before:bg-warm-orange">
             <img class="relative m-auto w-70" src="img/icon/figma_logo.png" alt="figma_icon" />
           </div>
           <p class="pb-2.5 pt-5 text-2xl font-extrabold leading-8">
@@ -133,7 +132,7 @@
         </div>
         <div>
           <div
-            class="relative mx-auto max-w-xs before:absolute before:right-[110px] before:bottom-[25px] before:h-11 before:w-11 before:rounded-full before:bg-aquamarine">
+            class="relative mx-auto max-w-xs before:absolute before:right-28 before:bottom-9 before:h-11 before:w-11 before:rounded-full before:bg-aquamarine">
             <img class="relative m-auto w-70" src="img/icon/crown.png" alt="crown_icon" />
           </div>
 
@@ -154,7 +153,7 @@
       <p class="pb-14 text-sm font-normal lg:text-lg">
         IoT Destekli Çözümler
       </p>
-      <div class="lg:flex lg:justify-between lg:pb-11 lg:text-left 2xl:mx-auto 2xl:max-w-[1440px]">
+      <div class="lg:flex lg:justify-between lg:pb-11 lg:text-left 2xl:mx-auto 2xl:max-w-1440">
         <div class="pb-11 lg:pb-0">
           <p class="text-lg font-bold leading-6">Yazılım Kalitesini</p>
           <p class="text-lg font-bold leading-6 lg:pb-0">Arttırıyoruz</p>
@@ -185,8 +184,7 @@
       <div class="lg:flex lg:flex-row-reverse lg:justify-between">
         <img class="lg:max-w-424 2xl:max-w-504" src="img/main_img_sm.jpg" alt="education_img" />
         <div class="lg:max-w-424 2xl:max-w-504">
-          <p
-            class="pt-8 pb-5 text-4xl font-bold lg:pt-0 lg:text-[58px] lg:leading-[60px] 2xl:pb-10 2xl:text-[64px] 2xl:leading-[76px]">
+          <p class="pt-8 pb-5 text-4xl font-bold lg:pt-0 lg:text-58 lg:leading-12 2xl:pb-10 2xl:text-64 2xl:leading-14">
             Kalite ve Süreç Yönetimi
           </p>
           <p class="pb-10 text-sm font-normal leading-7 text-secondary lg:pb-10 2xl:text-base 2xl:leading-8">
@@ -202,14 +200,13 @@
           </button>
         </div>
       </div>
-      <div class="pt-[60px] lg:flex lg:justify-between lg:pt-28">
+      <div class="pt-14 lg:flex lg:justify-between lg:pt-28">
         <picture>
           <source media="(min-width: 1440px)" srcset="img/main_img_xl.jpg" />
           <img class="lg:max-w-424 2xl:max-w-504" src="img/main_img.png" alt="notebook_img" />
         </picture>
         <div class="lg:max-w-424 2xl:max-w-504">
-          <p
-            class="pt-8 pb-5 text-4xl font-bold lg:pt-0 lg:text-58 lg:leading-[60px] 2xl:pb-10 2xl:text-64 2xl:leading-[76px]">
+          <p class="pt-8 pb-5 text-4xl font-bold lg:pt-0 lg:text-58 lg:leading-12 2xl:pb-10 2xl:text-64 2xl:leading-14">
             Kalite ve Süreç Yönetimi
           </p>
           <p class="pb-10 text-sm font-normal leading-7 text-secondary 2xl:text-base 2xl:leading-8">
@@ -232,7 +229,7 @@
         Bize güvenen ve beraber çalıştığımız iş ortaklarımız
       </p>
       <div
-        class="grid justify-center gap-6 md:mx-auto md:grid-cols-custom md:gap-3 lg:max-w-[950px] lg:grid-cols-5 lg:grid-rows-6 lg:gap-6">
+        class="grid justify-center gap-6 md:mx-auto md:grid-cols-custom md:gap-3 lg:max-w-950 lg:grid-cols-5 lg:grid-rows-6 lg:gap-6">
         <div
           class="flex h-24 w-44 items-center justify-center rounded-2xl bg-white hover:bg-red-400 hover:duration-300 hover:ease-out lg:row-span-2 lg:row-start-3 lg:row-end-5">
           <a href="#" class="w-9/12" href="#">

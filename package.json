@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "gh-pages": "^4.0.0",
     "prettier": "^2.8.0",
     "prettier-plugin-tailwindcss": "^0.2.0",
     "tailwindcss": "^3.2.4"
@@ -10,13 +11,16 @@
   "main": "tailwind.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+    "watch": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --minify",
+    "pre-deploy": "sh pre-deploy.sh && npm run build",
+    "deploy": "npm run pre-deploy && gh-pages -d dist && rm -r dist"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MilkMidav/Bilgi-Teknolojilerinde.git"
   },
-  "author": "Milk Modav",
+  "author": "Milk Midav",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/MilkMidav/Bilgi-Teknolojilerinde/issues"

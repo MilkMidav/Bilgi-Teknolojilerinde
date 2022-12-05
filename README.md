@@ -15,7 +15,7 @@
   </p>
   <p align="center">
 
-Try it out on GitHub Pages:
+Try it out on GitHub Pages: [https://milkmidav.github.io/bilgi-teknolojilerinde/](https://milkmidav.github.io/bilgi-teknolojilerinde/)
 
   </p>
 </div>
