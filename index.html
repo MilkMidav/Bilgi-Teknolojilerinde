@@ -10,7 +10,7 @@
 </head>
 
 <body class="font-body">
-  <header class="fixed z-[1] w-full px-5 pt-9 2xl:pr-32">
+  <header class="absolute z-[1] w-full px-5 pt-9 2xl:pr-32">
     <div class="">
       <div class="flex items-center justify-between lg:justify-end lg:gap-10">
         <div class="rounded-lg bg-slate-100 p-1 lg:hidden">
@@ -30,9 +30,8 @@
     </div>
   </header>
   <main class="">
-    <div
-      class="bg-[url('../src/img/bg_img.png')] bg-cover sm:bg-[url('../src/img/bg_img_lg.png')] 2xl:bg-[url('../src/img/bg_img_xl.png')]">
-      <div class="bg-[url('../src/img/rectangle.png')] bg-cover px-5 pt-36 lg:bg-none lg:px-20 2xl:px-[11%] 2xl:pt-48">
+    <div class="bg-[url('img/bg_img.png')] bg-cover sm:bg-[url('img/bg_img_lg.png')] 2xl:bg-[url('img/bg_img_xl.png')]">
+      <div class="bg-[url('img/rectangle.png')] bg-cover px-5 pt-36 lg:bg-none lg:px-20 2xl:px-[11%] 2xl:pt-48">
         <h1
           class="text-center text-40 font-extrabold lg:max-w-650 lg:text-start lg:text-6xl 2xl:max-w-665 2xl:text-7xl">
           Bilgi Teknolojilerinde 23 Yıllık Tecrübe
@@ -45,7 +44,7 @@
         </p>
         <div class="relative mx-auto pb-20 md:max-w-screen-sm lg:mx-0 lg:max-w-424 2xl:max-w-504">
           <input placeholder="Mail bültenimize kayıt ol"
-            class="w-full rounded-lg py-5 pl-4 text-sm placeholder:text-sm lg:py-5 lg:pl-7 lg:text-base 2xl:pl-8"
+            class="w-full rounded-lg py-5 pl-4 pr-36 text-sm placeholder:text-sm lg:py-5 lg:pl-7 lg:text-base 2xl:pl-8"
             type="email" name="" id="" />
           <button
             class="absolute right-1.2 top-1 rounded-lg bg-primary px-3.5 py-4 text-sm font-bold text-white hover:bg-red-900 lg:top-1.2 2xl:px-9 2xl:py-2.8 2xl:text-base">
