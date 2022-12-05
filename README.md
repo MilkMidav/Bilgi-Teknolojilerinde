@@ -61,6 +61,14 @@ To get a local copy up and running follow these simple example steps.
    ```sh
    npm run watch
    ```
+4. Install gh-pages library:
+   ```sh
+   npm install gh-pages --save-dev
+   ```
+5. Run this command to create and push new branch for deployment:
+   ```sh
+   npm run build
+   ```
 
 <!-- CONTACT -->
 

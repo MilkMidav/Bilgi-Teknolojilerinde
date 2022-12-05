@@ -13,7 +13,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
     "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --minify",
-    "pre-deploy": "sh pre-deploy.sh && npm run build",
+    "pre-deploy": "npm run build && sh pre-deploy.sh",
     "deploy": "npm run pre-deploy && gh-pages -d dist && rm -r dist"
   },
   "repository": {
