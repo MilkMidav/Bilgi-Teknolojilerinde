@@ -11,7 +11,7 @@
 <h3 align="center">The science site</h3>
 
   <p align="center">
-    A small page designed for site about information technology
+    A small landing page designed for an IT services provider
   </p>
   <p align="center">
 
@@ -38,7 +38,7 @@ Try it out on GitHub Pages: [https://milkmidav.github.io/bilgi-teknolojilerinde/
 
 ## About The Project
 
-News page written with the help of sass and using the BEM methodology.
+News page written with the help of tailwind library.
 
 ### Built With
 
@@ -67,8 +67,6 @@ To get a local copy up and running follow these simple example steps.
 ## Contact
 
 Milk Midav - [@twitter](https://twitter.com/MilkMidav) - wadim017@gmail.com
-
-Project Link: [https://github.com/MilkMidav/Bilgi-Teknolojilerinde.git](https://github.com/MilkMidav/Bilgi-Teknolojilerinde.git)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
