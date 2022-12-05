@@ -2,295 +2,310 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="../dist/output.css" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="../dist/output.css" rel="stylesheet" />
   <title>Document</title>
 </head>
 
 <body class="font-body">
-  <header class="fixed w-full px-5 pt-9 z-[1] 2xl-custom:pr-[122px]">
+  <header class="fixed z-[1] w-full px-5 pt-9 2xl:pr-32">
     <div class="">
-      <div class="flex justify-between items-center lg:justify-end lg:gap-10">
-        <div class="bg-slate-100 rounded-lg p-1 lg:hidden">
-          <img src="img/icon/list.png" alt="burger_logo">
+      <div class="flex items-center justify-between lg:justify-end lg:gap-10">
+        <div class="rounded-lg bg-slate-100 p-1 lg:hidden">
+          <img src="img/icon/list.png" alt="burger_logo" />
         </div>
-        <nav class="hidden lg:flex gap-10">
+        <nav class="hidden gap-10 lg:flex">
           <a href="#" class="text-sm font-bold leading-5">Çözüm ve Hizmetler</a>
           <a href="#" class="text-sm font-bold leading-5">Ürünler</a>
           <a href="#" class="text-sm font-bold leading-5">Teknolojiler</a>
           <a href="#" class="text-sm font-bold leading-5">İnsan Kaynakları</a>
           <a href="#" class="text-sm font-bold leading-5">Kurumsal</a>
         </nav>
-        <button
-          class="hover:bg-red-900 font-bold bg-[#F84646] rounded-md px-5 py-3 text-white text-sm">İletişim</button>
+        <button class="rounded-md bg-primary px-5 py-3 text-sm font-bold text-white hover:bg-red-900">
+          İletişim
+        </button>
       </div>
     </div>
   </header>
   <main class="">
     <div
-      class="bg-[url('../src/img/bg_img.png')] sm:bg-[url('../src/img/bg_img_lg.png')] bg-cover 2xl-custom:bg-[url('../src/img/bg_img_xl.png')]">
-      <div
-        class="bg-[url('../src/img/rectangle.png')] bg-cover 2xl-custom:pt-48 2xl-custom:px-[11%] lg:bg-none lg:px-20 px-5 pt-36">
+      class="bg-[url('../src/img/bg_img.png')] bg-cover sm:bg-[url('../src/img/bg_img_lg.png')] 2xl:bg-[url('../src/img/bg_img_xl.png')]">
+      <div class="bg-[url('../src/img/rectangle.png')] bg-cover px-5 pt-36 lg:bg-none lg:px-20 2xl:px-[11%] 2xl:pt-48">
         <h1
-          class="2xl-custom:max-w-[665px] 2xl-custom:text-[64px] lg:text-start lg:text-[56px] lg:max-w-[650px] font-extrabold text-[40px] text-center ">
-          Bilgi
-          Teknolojilerinde
-          23 Yıllık Tecrübe</h1>
+          class="text-center text-40 font-extrabold lg:max-w-650 lg:text-start lg:text-6xl 2xl:max-w-665 2xl:text-7xl">
+          Bilgi Teknolojilerinde 23 Yıllık Tecrübe
+        </h1>
         <p
-          class="2xl-custom:text-xl 2xl-custom:max-w-[665px] 2xl-custom:leading-9 lg:text-start lg:mx-0 lg:text-base lg:max-w-[550px] lg:leading-7 md:max-w-screen-sm text-center mx-auto text-xs leading-[23px] pt-[30px] pb-11">
-          Müşterilerimizin yüksek
-          kaate
-          seviyelerini
-          koruyabilmeleri
-          için
-          farklı sektörlerde
-          tecrübe
-          kazanmış uzman
-          kadrolarımızla Proje Yönetimi, İş Analizi ve Test Yönetimi hizmetleri sunmaktayız.</p>
-        <div class="xl:max-w-[500px] lg:mx-0 lg:max-w-[422px] md:max-w-screen-sm mx-auto relative pb-[84px]">
+          class="mx-auto pt-8 pb-11 text-center text-xs leading-6 md:max-w-screen-sm lg:mx-0 lg:max-w-550 lg:text-start lg:text-base lg:leading-7 2xl:max-w-665 2xl:text-xl 2xl:leading-9">
+          Müşterilerimizin yüksek kaate seviyelerini koruyabilmeleri için
+          farklı sektörlerde tecrübe kazanmış uzman kadrolarımızla Proje
+          Yönetimi, İş Analizi ve Test Yönetimi hizmetleri sunmaktayız.
+        </p>
+        <div class="relative mx-auto pb-20 md:max-w-screen-sm lg:mx-0 lg:max-w-424 2xl:max-w-504">
           <input placeholder="Mail bültenimize kayıt ol"
-            class="2xl-custom:pl-8 lg:pl-7 lg:py-[19px] lg:text-base py-5 pl-4 rounded-lg text-sm w-full placeholder:text-sm"
-            type="email" name="" id="">
+            class="w-full rounded-lg py-5 pl-4 text-sm placeholder:text-sm lg:py-5 lg:pl-7 lg:text-base 2xl:pl-8"
+            type="email" name="" id="" />
           <button
-            class="2xl-custom:text-base 2xl-custom:px-9 2xl-custom:py-[14px] lg:top-[5px] right-[5px] top-[4px] absolute px-[18px] py-[16px] bg-[#F84646] hover:bg-red-900 text-white text-sm font-bold rounded-lg">Kayıt
-            Ol</button>
+            class="absolute right-[5px] top-1 rounded-lg bg-primary px-3.5 py-4 text-sm font-bold text-white hover:bg-red-900 lg:top-[5px] 2xl:px-9 2xl:py-2.8 2xl:text-base">
+            Kayıt Ol
+          </button>
         </div>
       </div>
     </div>
-    <div class="2xl-custom:pt-28 px-5 pt-[60px] pb-[90px] text-center items-center md:mx-auto">
+    <div class="items-center px-5 pt-14 pb-24 text-center md:mx-auto 2xl:pt-28">
       <div>
-        <h2 class="2xl-custom:pb-[30px] lg:text-4xl lg:pb-7 text-2xl font-extrabold pb-[20px] leading-8">Kalite ve Süreç
-          Yönetimi</h2>
-        <p
-          class="2xl-custom:max-w-[1050px] lg:max-w-[876px] lg:text-2xl mx-auto text-xs font-normal leading-[22px] pb-[50px]">
-          Müşterilerimizin
-          yüksek kalite seviyelerini
-          koruyabilmeleri için
-          farklı
-          sektörlerde tecrübe kazanmış uzman
-          kadrolarımızla Proje Yönetimi, İş Analizi ve Test Yönetimi hizmetleri sunmaktayız.</p>
+        <h2 class="pb-5 text-2xl font-extrabold leading-8 lg:pb-7 lg:text-4xl 2xl:pb-7">
+          Kalite ve Süreç Yönetimi
+        </h2>
+        <p class="mx-auto pb-12 text-xs font-normal leading-5 lg:max-w-876 lg:text-2xl 2xl:max-w-1050">
+          Müşterilerimizin yüksek kalite seviyelerini koruyabilmeleri için
+          farklı sektörlerde tecrübe kazanmış uzman kadrolarımızla Proje
+          Yönetimi, İş Analizi ve Test Yönetimi hizmetleri sunmaktayız.
+        </p>
       </div>
-      <div class="2xl-custom:grid-cols-custom-3cols grid lg:grid-cols-custom-2cols lg:justify-center lg:gap-24">
-        <div class="pb-[90px] lg:pb-0">
+      <div class="grid lg:grid-cols-custom-2cols lg:justify-center lg:gap-24 2xl:grid-cols-custom-3cols">
+        <div class="pb-24 lg:pb-0">
           <div
-            class="max-w-xs mx-auto relative before:w-11 before:bg-[#FF5391] before:h-11 before:absolute before:rounded-full">
-            <img class="m-auto w-[70px] relative" src="img/icon/file.png" alt="file_icon_img">
+            class="relative mx-auto max-w-xs before:absolute before:h-11 before:w-11 before:rounded-full before:bg-pink">
+            <img class="relative m-auto w-70" src="img/icon/file.png" alt="file_icon_img" />
           </div>
-          <p class="text-2xl font-extrabold leading-8 pb-[10px] pt-5">Döküman Analizi</p>
-          <p class="text-lg font-normal leading-7">Ante vulputate ut at accumsan et. Feugiat at tempus, est
-            senectus amet,
-            elementum.</p>
+          <p class="pb-2.5 pt-5 text-2xl font-extrabold leading-8">
+            Döküman Analizi
+          </p>
+          <p class="text-lg font-normal leading-7">
+            Ante vulputate ut at accumsan et. Feugiat at tempus, est senectus
+            amet, elementum.
+          </p>
         </div>
-        <div class="pb-[90px] lg:pb-0">
+        <div class="pb-24 lg:pb-0">
           <div
-            class="max-w-xs mx-auto relative before:right-[158px] before:top-2 before:w-11 before:bg-[#7553FF] before:h-11 before:absolute before:rounded-full">
-            <img class="m-auto w-[70px] relative" src="img/icon/star.png" alt="star_icon_img">
+            class="relative mx-auto max-w-xs before:absolute before:right-[158px] before:top-2 before:h-11 before:w-11 before:rounded-full before:bg-violet">
+            <img class="relative m-auto w-70" src="img/icon/star.png" alt="star_icon_img" />
           </div>
-          <p class="text-2xl font-extrabold leading-8 pb-[10px] pt-5">Kabul ve Değerlendirme</p>
-          <p class="text-lg font-normal leading-7">Ante vulputate ut at accumsan et. Feugiat at tempus, est
-            senectus amet,
-            elementum.</p>
+          <p class="pb-2.5 pt-5 text-2xl font-extrabold leading-8">
+            Kabul ve Değerlendirme
+          </p>
+          <p class="text-lg font-normal leading-7">
+            Ante vulputate ut at accumsan et. Feugiat at tempus, est senectus
+            amet, elementum.
+          </p>
         </div>
-        <div class="pb-[90px] lg:pb-0">
+        <div class="pb-24 lg:pb-0">
           <div
-            class="max-w-xs mx-auto relative before:w-11 before:bg-[#FF5353] before:h-11 before:absolute before:rounded-full">
-            <img class="m-auto w-[70px] relative" src="img/icon/chart_pie_slice.png" alt="circle_chart_icon">
+            class="relative mx-auto max-w-xs before:absolute before:h-11 before:w-11 before:rounded-full before:bg-primary">
+            <img class="relative m-auto w-70" src="img/icon/chart_pie_slice.png" alt="circle_chart_icon" />
           </div>
-          <p class="text-2xl font-extrabold leading-8 pb-[10px] pt-5">Paydaş Analizi</p>
-          <p class="text-lg font-normal leading-7">Ante vulputate ut at accumsan et. Feugiat at tempus, est
-            senectus amet,
-            elementum.</p>
+          <p class="pb-2.5 pt-5 text-2xl font-extrabold leading-8">
+            Paydaş Analizi
+          </p>
+          <p class="text-lg font-normal leading-7">
+            Ante vulputate ut at accumsan et. Feugiat at tempus, est senectus
+            amet, elementum.
+          </p>
         </div>
-        <div class="pb-[90px] lg:pb-0">
+        <div class="pb-24 lg:pb-0">
           <div
-            class="max-w-xs mx-auto  relative before:right-[154px] before:top-1 before:w-11 before:bg-[#53ACFF] before:h-11 before:absolute before:rounded-full">
-            <img class="m-auto w-[70px] relative" src="img/icon/chart_bar.png" alt="chart_bar_icon_img">
+            class="relative mx-auto max-w-xs before:absolute before:right-[154px] before:top-1 before:h-11 before:w-11 before:rounded-full before:bg-lite-blue">
+            <img class="relative m-auto w-70" src="img/icon/chart_bar.png" alt="chart_bar_icon_img" />
           </div>
-          <p class="text-2xl font-extrabold leading-8 pb-[10px] pt-5">Akış Diyagramları</p>
-          <p class="text-lg font-normal leading-7 ">Ante vulputate ut at accumsan et. Feugiat at tempus, est
-            senectus amet,
-            elementum.</p>
+          <p class="pb-2.5 pt-5 text-2xl font-extrabold leading-8">
+            Akış Diyagramları
+          </p>
+          <p class="text-lg font-normal leading-7">
+            Ante vulputate ut at accumsan et. Feugiat at tempus, est senectus
+            amet, elementum.
+          </p>
         </div>
-        <div class="pb-[90px] lg:pb-0">
+        <div class="pb-24 lg:pb-0">
           <div
-            class="max-w-xs mx-auto  relative before:right-[128px] before:bottom-[35px] before:w-11 before:bg-[#FFBA53] before:h-11 before:absolute before:rounded-full">
-            <img class="m-auto w-[70px] relative" src="img/icon/figma_logo.png" alt="figma_icon">
+            class="relative mx-auto max-w-xs before:absolute before:right-[128px] before:bottom-[35px] before:h-11 before:w-11 before:rounded-full before:bg-warm-orange">
+            <img class="relative m-auto w-70" src="img/icon/figma_logo.png" alt="figma_icon" />
           </div>
-          <p class="text-2xl font-extrabold leading-8 pb-[10px] pt-5">Prototipleme</p>
-          <p class="text-lg font-normal leading-7">Ante vulputate ut at accumsan et. Feugiat at tempus, est
-            senectus amet,
-            elementum.</p>
+          <p class="pb-2.5 pt-5 text-2xl font-extrabold leading-8">
+            Prototipleme
+          </p>
+          <p class="text-lg font-normal leading-7">
+            Ante vulputate ut at accumsan et. Feugiat at tempus, est senectus
+            amet, elementum.
+          </p>
         </div>
         <div>
           <div
-            class="max-w-xs mx-auto  relative before:right-[110px] before:bottom-[25px] before:w-11 before:bg-[#53C1FF] before:h-11 before:absolute before:rounded-full">
-            <img class="m-auto w-[70px] relative" src="img/icon/crown.png" alt="crown_icon">
+            class="relative mx-auto max-w-xs before:absolute before:right-[110px] before:bottom-[25px] before:h-11 before:w-11 before:rounded-full before:bg-aquamarine">
+            <img class="relative m-auto w-70" src="img/icon/crown.png" alt="crown_icon" />
           </div>
 
-          <p class="text-2xl font-extrabold leading-8 pb-[10px] pt-5">İş Kuralları Analizi</p>
-          <p class="text-lg font-normal leading-7">Ante vulputate ut at accumsan et. Feugiat at tempus, est
-            senectus amet,
-            elementum.</p>
+          <p class="pb-2.5 pt-5 text-2xl font-extrabold leading-8">
+            İş Kuralları Analizi
+          </p>
+          <p class="text-lg font-normal leading-7">
+            Ante vulputate ut at accumsan et. Feugiat at tempus, est senectus
+            amet, elementum.
+          </p>
         </div>
       </div>
     </div>
-    <div
-      class="2xl-custom:pb-12 2xl-custom:pt-20 2xl-custom:px-32 bg-[#F84646] text-center text-white px-5 pb-20 pt-12 lg:px-10 lg:pb-0">
-      <p class="lg:text-5xl text-4xl font-extrabold leading-10 pb-2">Test Yönetimiyle Neler Sağlıyoruz?</p>
-      <p class="lg:text-lg text-sm font-normal pb-14">IoT Destekli Çözümler</p>
-      <div class="2xl-custom:max-w-[1440px] 2xl-custom:mx-auto lg:flex lg:justify-between lg:text-left lg:pb-11">
+    <div class="bg-primary px-5 pb-20 pt-12 text-center text-white lg:px-10 lg:pb-0 2xl:px-32 2xl:pb-12 2xl:pt-20">
+      <p class="pb-2 text-4xl font-extrabold leading-10 lg:text-5xl">
+        Test Yönetimiyle Neler Sağlıyoruz?
+      </p>
+      <p class="pb-14 text-sm font-normal lg:text-lg">
+        IoT Destekli Çözümler
+      </p>
+      <div class="lg:flex lg:justify-between lg:pb-11 lg:text-left 2xl:mx-auto 2xl:max-w-[1440px]">
         <div class="pb-11 lg:pb-0">
-          <p class="text-lg font-bold leading-6 ">Yazılım Kalitesini</p>
+          <p class="text-lg font-bold leading-6">Yazılım Kalitesini</p>
           <p class="text-lg font-bold leading-6 lg:pb-0">Arttırıyoruz</p>
         </div>
-        <img class="lg:-rotate-90 lg:pb-0 pb-11 w-8 m-auto" src="img/icon/arrow_bt.png" alt="arrow_circle">
+        <img class="m-auto w-8 pb-11 lg:-rotate-90 lg:pb-0" src="img/icon/arrow_bt.png" alt="arrow_circle" />
         <div class="pb-11 lg:pb-0">
-          <p class="text-lg font-bold leading-6 ">Olası Hataları</p>
-          <p class="text-lg font-bold leading-6 lg:pb-0">Önceden Belirliyoruz</p>
+          <p class="text-lg font-bold leading-6">Olası Hataları</p>
+          <p class="text-lg font-bold leading-6 lg:pb-0">
+            Önceden Belirliyoruz
+          </p>
         </div>
-        <img class="lg:-rotate-90 lg:pb-0 pb-11 w-8 m-auto" src="img/icon/arrow_bt.png" alt="arrow_circle">
+        <img class="m-auto w-8 pb-11 lg:-rotate-90 lg:pb-0" src="img/icon/arrow_bt.png" alt="arrow_circle" />
         <div class="pb-11 lg:pb-0">
-          <p class="text-lg font-bold leading-6 ">Oluşabilecek</p>
-          <p class="text-lg font-bold leading-6 lg:pb-0">Riskleri Önlüyoruz</p>
+          <p class="text-lg font-bold leading-6">Oluşabilecek</p>
+          <p class="text-lg font-bold leading-6 lg:pb-0">
+            Riskleri Önlüyoruz
+          </p>
         </div>
-        <img class="lg:-rotate-90 lg:pb-0 pb-11 w-8 m-auto" src="img/icon/arrow_bt.png" alt="arrow_circle">
+        <img class="m-auto w-8 pb-11 lg:-rotate-90 lg:pb-0" src="img/icon/arrow_bt.png" alt="arrow_circle" />
         <div>
-          <p class="text-lg font-bold leading-6 ">Zaman ve Maliyetten</p>
-          <p class="text-lg font-bold leading-6 ">Tasarruf Sağlıyoruz</p>
+          <p class="text-lg font-bold leading-6">Zaman ve Maliyetten</p>
+          <p class="text-lg font-bold leading-6">Tasarruf Sağlıyoruz</p>
         </div>
       </div>
     </div>
     <div
-      class="2xl-custom:px-0 lg:max-w-[1200px] px-5 lg:px-14 pt-[90px] pb-20 lg:pb-40 text-center lg:text-start md:max-w-lg md:mx-auto">
+      class="px-5 pt-24 pb-20 text-center md:mx-auto md:max-w-lg lg:max-w-1200 lg:px-14 lg:pb-40 lg:text-start 2xl:px-0">
       <div class="lg:flex lg:flex-row-reverse lg:justify-between">
-        <img class="2xl-custom:w-[504px] lg:w-[424px]" src="img/main_img_sm.jpg" alt="education_img">
-        <div class="2xl-custom:max-w-[504px] lg:max-w-[424px]">
+        <img class="lg:max-w-424 2xl:max-w-504" src="img/main_img_sm.jpg" alt="education_img" />
+        <div class="lg:max-w-424 2xl:max-w-504">
           <p
-            class="2xl-custom:leading-[76px] 2xl-custom:pb-10 2xl-custom:text-[64px] text-4xl font-bold pt-8 pb-5 lg:text-[58px] lg:leading-[60px] lg:pt-0">
-            Kalite
-            ve Süreç Yönetimi</p>
-          <p
-            class="2xl-custom:text-base 2xl-custom:leading-8 text-sm text-[#808080] font-normal leading-7 pb-10 lg:pb-[42px]">
-            Deneyimli
-            kadromuz; birçok farklı
-            sektörden
-            deneyimli,
-            PMP® sertifikasına
-            sahip, uzman
-            proje
-            yöneticilerinden oluşmaktadır. Projelerinizin yönetimine destek olmak, zayıf olduğunu düşündüğünüz alanları
-            güçlendirmek, uluslararası geçerliliği olan PMI® metodolojisini şirketinizde uygulamak ve geliştirmek için
-            yanınızdayız.</p>
-          <button
-            class="hover:bg-red-900 lg:w-40 font-semibold text-sm text-white bg-[#F84646] py-3 w-full rounded-lg">Keşfet</button>
+            class="pt-8 pb-5 text-4xl font-bold lg:pt-0 lg:text-[58px] lg:leading-[60px] 2xl:pb-10 2xl:text-[64px] 2xl:leading-[76px]">
+            Kalite ve Süreç Yönetimi
+          </p>
+          <p class="pb-10 text-sm font-normal leading-7 text-secondary lg:pb-10 2xl:text-base 2xl:leading-8">
+            Deneyimli kadromuz; birçok farklı sektörden deneyimli, PMP®
+            sertifikasına sahip, uzman proje yöneticilerinden oluşmaktadır.
+            Projelerinizin yönetimine destek olmak, zayıf olduğunu
+            düşündüğünüz alanları güçlendirmek, uluslararası geçerliliği olan
+            PMI® metodolojisini şirketinizde uygulamak ve geliştirmek için
+            yanınızdayız.
+          </p>
+          <button class="w-full rounded-lg bg-primary py-3 text-sm font-semibold text-white hover:bg-red-900 lg:w-40">
+            Keşfets
+          </button>
         </div>
       </div>
       <div class="pt-[60px] lg:flex lg:justify-between lg:pt-28">
         <picture>
-          <source media="(min-width: 1440px)" srcset="img/main_img_xl.jpg">
-          <img class="2xl-custom:w-[504px] lg:w-[424px]" src="img/main_img.png" alt="notebook_img">
+          <source media="(min-width: 1440px)" srcset="img/main_img_xl.jpg" />
+          <img class="lg:max-w-424 2xl:max-w-504" src="img/main_img.png" alt="notebook_img" />
         </picture>
-        <div class="2xl-custom:max-w-[504px] lg:max-w-[424px]">
+        <div class="lg:max-w-424 2xl:max-w-504">
           <p
-            class="2xl-custom:leading-[76px] 2xl-custom:pb-10 2xl-custom:text-[64px] text-4xl font-bold pt-8 pb-5 lg:text-[58px] lg:leading-[60px] lg:pt-0">
-            Kalite
-            ve Süreç Yönetimi</p>
-          <p class="2xl-custom:text-base 2xl-custom:leading-8 text-sm text-[#808080] font-normal leading-7 pb-10">
-            Deneyimli kadromuz; birçok
-            farklı sektörden
-            deneyimli,
-            PMP® sertifikasına
-            sahip, uzman
-            proje
-            yöneticilerinden oluşmaktadır. Projelerinizin yönetimine destek olmak, zayıf olduğunu düşündüğünüz alanları
-            güçlendirmek, uluslararası geçerliliği olan PMI® metodolojisini şirketinizde uygulamak ve geliştirmek için
-            yanınızdayız.</p>
-          <button
-            class="hover:bg-red-900 font-semibold text-sm text-white bg-[#F84646] py-3 w-full rounded-lg lg:w-40">Keşfet</button>
+            class="pt-8 pb-5 text-4xl font-bold lg:pt-0 lg:text-58 lg:leading-[60px] 2xl:pb-10 2xl:text-64 2xl:leading-[76px]">
+            Kalite ve Süreç Yönetimi
+          </p>
+          <p class="pb-10 text-sm font-normal leading-7 text-secondary 2xl:text-base 2xl:leading-8">
+            Deneyimli kadromuz; birçok farklı sektörden deneyimli, PMP®
+            sertifikasına sahip, uzman proje yöneticilerinden oluşmaktadır.
+            Projelerinizin yönetimine destek olmak, zayıf olduğunu
+            düşündüğünüz alanları güçlendirmek, uluslararası geçerliliği olan
+            PMI® metodolojisini şirketinizde uygulamak ve geliştirmek için
+            yanınızdayız.
+          </p>
+          <button class="w-full rounded-lg bg-primary py-3 text-sm font-semibold text-white hover:bg-red-900 lg:w-40">
+            Keşfet
+          </button>
         </div>
       </div>
     </div>
-    <div class="bg-gray-100 text-center px-5 py-10">
-      <p class="font-bold text-4xl pb-3">Referanslarımız</p>
-      <p class="text-sm font-medium tracking-tight text-gray-900 leading-8 pb-10">Bize güvenen ve beraber çalıştığımız
-        iş ortaklarımız
+    <div class="bg-gray-100 px-5 py-10 text-center">
+      <p class="pb-3 text-4xl font-bold">Referanslarımız</p>
+      <p class="pb-10 text-sm font-medium leading-8 tracking-tight text-gray-900">
+        Bize güvenen ve beraber çalıştığımız iş ortaklarımız
       </p>
       <div
-        class="grid gap-6 lg:gap-6 lg:max-w-[950px] justify-center md:grid-cols-custom md:gap-3 md:mx-auto lg:grid-cols-5 lg:grid-rows-6">
+        class="grid justify-center gap-6 md:mx-auto md:grid-cols-custom md:gap-3 lg:max-w-[950px] lg:grid-cols-5 lg:grid-rows-6 lg:gap-6">
         <div
-          class="hover:bg-red-400 hover:ease-out hover:duration-300 bg-white flex h-24 w-44 rounded-2xl items-center justify-center lg:row-span-2 lg:row-start-3 lg:row-end-5">
+          class="flex h-24 w-44 items-center justify-center rounded-2xl bg-white hover:bg-red-400 hover:duration-300 hover:ease-out lg:row-span-2 lg:row-start-3 lg:row-end-5">
           <a href="#" class="w-9/12" href="#">
-            <img src="img/corp/borusan_logo.png" alt="borusan_logo">
+            <img src="img/corp/borusan_logo.png" alt="borusan_logo" />
           </a>
         </div>
         <div
-          class="hover:bg-red-400 hover:ease-out hover:duration-300 bg-white flex h-24 w-44 rounded-2xl items-center justify-center lg:row-span-2 lg:col-start-2 lg:row-start-2">
+          class="flex h-24 w-44 items-center justify-center rounded-2xl bg-white hover:bg-red-400 hover:duration-300 hover:ease-out lg:col-start-2 lg:row-span-2 lg:row-start-2">
           <a href="#" class="w-9/12" href="#">
-            <img src="img/corp/university_logo.png" alt="university_logo">
+            <img src="img/corp/university_logo.png" alt="university_logo" />
           </a>
         </div>
         <div
-          class="hover:bg-red-400 hover:ease-out hover:duration-300 bg-white flex h-24 w-44 rounded-2xl items-center justify-center lg:row-span-2 lg:col-start-2 lg:row-start-4">
+          class="flex h-24 w-44 items-center justify-center rounded-2xl bg-white hover:bg-red-400 hover:duration-300 hover:ease-out lg:col-start-2 lg:row-span-2 lg:row-start-4">
           <a href="#" class="w-9/12" href="#">
-            <img src="img/corp/bookmyshow_logo.png" alt="bookmyshow_logo">
+            <img src="img/corp/bookmyshow_logo.png" alt="bookmyshow_logo" />
           </a>
         </div>
         <div
-          class="hover:bg-red-400 hover:ease-out hover:duration-300 bg-white flex h-24 w-44 rounded-2xl items-center justify-center lg:row-span-2 lg:col-start-3">
+          class="flex h-24 w-44 items-center justify-center rounded-2xl bg-white hover:bg-red-400 hover:duration-300 hover:ease-out lg:col-start-3 lg:row-span-2">
           <a href="#" class="w-9/12" href="#">
-            <img src="img/corp/akbank_logo.png" alt="akbank_logo">
+            <img src="img/corp/akbank_logo.png" alt="akbank_logo" />
           </a>
         </div>
         <div
-          class="hover:bg-red-400 hover:ease-out hover:duration-300 bg-white flex h-24 w-44 rounded-2xl items-center justify-center lg:row-span-2 lg:col-start-3 lg:row-start-3">
+          class="flex h-24 w-44 items-center justify-center rounded-2xl bg-white hover:bg-red-400 hover:duration-300 hover:ease-out lg:col-start-3 lg:row-span-2 lg:row-start-3">
           <a href="#" class="w-9/12" href="#">
-            <img src="img/corp/akcansa_logo.png" alt="akcansa_logo">
+            <img src="img/corp/akcansa_logo.png" alt="akcansa_logo" />
           </a>
         </div>
         <div
-          class="hidden hover:bg-red-400 hover:ease-out hover:duration-300 bg-white h-24 w-44 rounded-2xl items-center justify-center md:flex lg:row-span-2 lg:col-start-4 lg:row-start-2">
+          class="hidden h-24 w-44 items-center justify-center rounded-2xl bg-white hover:bg-red-400 hover:duration-300 hover:ease-out md:flex lg:col-start-4 lg:row-span-2 lg:row-start-2">
           <a href="#" class="w-9/12" href="#">
-            <img src="img/corp/aktlas_logo.png" alt="aktlas_logo">
+            <img src="img/corp/aktlas_logo.png" alt="aktlas_logo" />
           </a>
         </div>
         <div
-          class="hidden hover:bg-red-400 hover:ease-out hover:duration-300 bg-white h-24 w-44 rounded-2xl items-center justify-center md:flex lg:row-span-2 lg:col-start-4 lg:row-start-4">
+          class="hidden h-24 w-44 items-center justify-center rounded-2xl bg-white hover:bg-red-400 hover:duration-300 hover:ease-out md:flex lg:col-start-4 lg:row-span-2 lg:row-start-4">
           <a href="#" class="w-9/12" href="#">
-            <img src="img/corp/ola_logo.png" alt="ola_logo">
+            <img src="img/corp/ola_logo.png" alt="ola_logo" />
           </a>
         </div>
         <div
-          class="hidden hover:bg-red-400 hover:ease-out hover:duration-300 bg-white h-24 w-44 rounded-2xl items-center justify-center md:flex lg:row-span-2 lg:row-start-3">
+          class="hidden h-24 w-44 items-center justify-center rounded-2xl bg-white hover:bg-red-400 hover:duration-300 hover:ease-out md:flex lg:row-span-2 lg:row-start-3">
           <a href="#" class="w-6/12" href="#">
-            <img src="img/corp/amazon_logo.png" alt="amazon_logo">
+            <img src="img/corp/amazon_logo.png" alt="amazon_logo" />
           </a>
         </div>
         <button
-          class="bg-white text-base text-red-500 font-semibold flex h-24 w-44 rounded-2xl items-center justify-center gap-2 hover:bg-red-400 hover:ease-out hover:duration-300 hover:text-white md:hidden lg:flex lg:row-span-2 lg:col-start-3 lg:row-start-5">
-          <span>Tümünü Gör</span> <img class="w-4" src="img/icon/arrow.png" alt="arrow">
+          class="flex h-24 w-44 items-center justify-center gap-2 rounded-2xl bg-white text-base font-semibold text-red-500 hover:bg-red-400 hover:text-white hover:duration-300 hover:ease-out md:hidden lg:col-start-3 lg:row-span-2 lg:row-start-5 lg:flex">
+          <span>Tümünü Gör</span>
+          <img class="w-4" src="img/icon/arrow.png" alt="arrow" />
         </button>
       </div>
     </div>
-    <div class="text-center pt-24 pb-20 px-5 lg:pb-40">
+    <div class="px-5 pt-24 pb-20 text-center lg:pb-40">
       <div
-        class="relative before:w-11 before:lg:scale-150 before:bg-[#FF5353] before:top-2 before:h-11 before:absolute before:rounded-full">
-        <img class="lg:scale-150 w-24 m-auto relative" src="img/icon/users.png" alt="user_icon">
+        class="relative before:absolute before:top-2 before:h-11 before:w-11 before:rounded-full before:bg-primary before:lg:scale-150">
+        <img class="relative m-auto w-24 lg:scale-150" src="img/icon/users.png" alt="user_icon" />
       </div>
       <p class="pt-5 text-4xl font-extrabold lg:text-5xl">Bize Ulaşın</p>
-      <p class="text-sm font-medium tracking-tight pt-3 lg:text-lg">Çözüm, hizmet ve ürünlerimiz hakkında detaylı bilgi
-        için
-        bizimle
+      <p class="pt-3 text-sm font-medium tracking-tight lg:text-lg">
+        Çözüm, hizmet ve ürünlerimiz hakkında detaylı bilgi için bizimle
         irtibata geçin.
       </p>
       <button
-        class="bg-[#F84646] hover:bg-red-900 text-white font-semibold px-5 py-3 rounded-lg mt-5 lg:px-10 lg:py-6 lg:text-2xl lg:mt-7">Bize
-        Ulaşın</button>
+        class="mt-5 rounded-lg bg-primary px-5 py-3 font-semibold text-white hover:bg-red-900 lg:mt-7 lg:px-10 lg:py-6 lg:text-2xl">
+        Bize Ulaşın
+      </button>
     </div>
   </main>
-  <footer class="bg-[#F84646] text-white py-20 px-5 lg:px-[60px]">
-    <div class="2xl-custom:gap-36 md:grid md:grid-cols-2 lg:flex lg:gap-12">
+  <footer class="bg-primary py-20 px-5 text-white lg:px-16">
+    <div class="md:grid md:grid-cols-2 lg:flex lg:gap-12 2xl:gap-36">
       <div>
         <p href="#" class="text-base font-bold">Çözüm ve pizmetler</p>
         <a href="#" class="block pt-6 text-base leading-8">Yazılım Geliştirme</a>
@@ -307,28 +322,33 @@
         <a href="#" class="block pt-6 text-base leading-8">İçerik Yönetim Sistemi</a>
       </div>
       <div class="pt-12 lg:pt-0">
-        <p href="#" class="text-base font-bold">Kurumsal
+        <p href="#" class="text-base font-bold">Kurumsal</p>
         <p>
           <a href="#" class="block pt-6 text-base leading-8">Hakkımızda</a>
           <a href="#" class="block pt-6 text-base leading-8">Belge ve Yetkinlikler</a>
           <a href="#" class="block pt-6 text-base leading-8">İş Ortakları</a>
+        </p>
       </div>
+
       <div class="pt-12 lg:pt-0">
-        <p href="#" class="text-base font-bold">İletişim
+        <p href="#" class="text-base font-bold">İletişim</p>
         <p>
           <a href="#" class="block pt-6 text-base leading-8">Bilgi İstek Formu</a>
           <a href="#" class="block pt-6 text-base leading-8">Uzman Talep Formu</a>
+        </p>
       </div>
     </div>
-    <div class="md:flex md:items-center justify-between lg:flex-row-reverse">
+    <div class="justify-between md:flex md:items-center lg:flex-row-reverse">
       <div class="flex items-center gap-4 pt-7">
-        <img class="w-8" src="img/icon/socials/medium_logo.png" alt="medium_logo">
-        <img class="w-8" src="img/icon/socials/linkedin_logo.png" alt="linkedin_logo">
-        <img class="w-8" src="img/icon/socials/twitter_logo.png" alt="twitter_logo">
-        <img class="w-8" src="img/icon/socials/instagram_logo.png" alt="instagram_logo">
-        <img class="w-8" src="img/icon/socials/facebook_logo.png" alt="facebook_logo">
+        <img class="w-8" src="img/icon/socials/medium_logo.png" alt="medium_logo" />
+        <img class="w-8" src="img/icon/socials/linkedin_logo.png" alt="linkedin_logo" />
+        <img class="w-8" src="img/icon/socials/twitter_logo.png" alt="twitter_logo" />
+        <img class="w-8" src="img/icon/socials/instagram_logo.png" alt="instagram_logo" />
+        <img class="w-8" src="img/icon/socials/facebook_logo.png" alt="facebook_logo" />
       </div>
-      <p class="text-base font-normal pt-16 md:pt-7">© Copyright 2010-2021 - Can Çevik</p>
+      <p class="pt-16 text-base font-normal md:pt-7">
+        © Copyright 2010-2021 - Can Çevik
+      </p>
     </div>
   </footer>
 </body>
